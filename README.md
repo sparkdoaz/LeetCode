@@ -27,8 +27,8 @@
 
 ## 題目
 
-|      	| 題號 	| 題目                       	| Level 	|   	|
+|      	| 題號 	| 題目                       	| Level 	|  連結 	|
 |------	|------	|----------------------------	|-------	|---	|
-| 1/24 	| 349  	| Intersection of Two Arrays 	| Easy  	|   	|
+| 1/24 	| 349  	| Intersection of Two Arrays 	| Easy  	|  [連結](https://leetcode.com/problems/intersection-of-two-arrays/) 	|
 | 2/7  	|      	|                            	|       	|   	|
 |      	|      	|                            	|       	|   	|
