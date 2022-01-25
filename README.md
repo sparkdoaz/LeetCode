@@ -30,5 +30,6 @@
 |      	| 題號 	| 題目                       	| Level 	|  連結 	|
 |------	|------	|----------------------------	|-------	|---	|
 | 1/24 	| 349  	| Intersection of Two Arrays 	| Easy  	|  [連結](https://leetcode.com/problems/intersection-of-two-arrays/) 	|
-| 2/7  	|      	|                            	|       	|   	|
+| 1/24  | 350  	| Intersection of Two Arrays II 	|  Easy  	| [連結](https://leetcode.com/problems/intersection-of-two-arrays-ii/)  	|
+| 2/7  	| 223  	| Rectangle Area            	|  Medium |  [連結](https://leetcode.com/problems/rectangle-area/) 	|
 |      	|      	|                            	|       	|   	|
