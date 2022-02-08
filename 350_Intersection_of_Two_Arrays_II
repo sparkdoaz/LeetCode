@@ -1,0 +1,29 @@
+class Solution {
+    // runtime: 54 ms, memory: 14 MB
+    func intersect(_ nums1: [Int], _ nums2: [Int]) -> [Int] {
+        var d1 = [Int:Int]()
+        var d2 = [Int:Int]()
+        nums1.forEach({ d1 = add($0, to: d1) })
+        nums2.forEach({ d2 = add($0, to: d2) })
+        var r = [Int]()
+        for key in d1.keys {
+            if  case let count = min(d1[key] ?? 0, d2[key] ?? 0),
+                count > 0 {
+                for _ in 1...count {
+                    r.append(key)
+                }
+            }
+        }
+        return r
+    }
+    
+    func add(_ key: Int, to dict:[Int:Int]) -> [Int:Int] {
+        var d = dict
+        if let v = d[key] {
+            d[key] = v + 1
+        } else {
+            d[key] = 1
+        }
+        return d
+    }
+}

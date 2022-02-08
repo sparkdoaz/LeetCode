@@ -1,0 +1,30 @@
+class Solution {
+    // runtime: 16 ms, memory: 14.4 MB
+    func intersection(_ nums1: [Int], _ nums2: [Int]) -> [Int] {
+        let set1 = Set(nums1)
+        let set2 = Set(nums2)
+        return set1.filter({ set2.contains($0) })
+    }
+
+    // runtime: 20 ms, memory: 14.6 MB
+    func intersection1(_ nums1: [Int], _ nums2: [Int]) -> [Int] {
+        let set1 = Set(nums1)
+        let set2 = Set(nums2)
+        var result = [Int]()
+        set1.forEach({
+            if set2.contains($0) {
+                result.append($0)
+            }
+        })
+        return result
+    }
+
+    // runtime: 38 ms, memory: 14.1 MB
+    func intersection2(_ nums1: [Int], _ nums2: [Int]) -> [Int] {
+        let set1 = Set(nums1).sorted()
+        let set2 = Set(nums2).sorted()
+        return set1.filter({ set2.contains($0) })
+    }
+}
+
+
