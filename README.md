@@ -31,5 +31,5 @@
 |------	|------	|----------------------------	|-------	|---	|
 | 1/24 	| 349  	| Intersection of Two Arrays 	| Easy  	|  [連結](https://leetcode.com/problems/intersection-of-two-arrays/) 	|
 | 1/24  | 350  	| Intersection of Two Arrays II 	|  Easy  	| [連結](https://leetcode.com/problems/intersection-of-two-arrays-ii/)  	|
-| 2/7  	| 223  	| Rectangle Area            	|  Medium |  [連結](https://leetcode.com/problems/rectangle-area/) 	|
-|      	|      	|                            	|       	|   	|
+| 2/7  	| 223  	| Rectangle Area            	|  Medium | [連結](https://leetcode.com/problems/rectangle-area/) 	|
+| 2/14  | 56  	| Merge Intervals            	|  Medium	| [連結](https://leetcode.com/problems/merge-intervals/) |
