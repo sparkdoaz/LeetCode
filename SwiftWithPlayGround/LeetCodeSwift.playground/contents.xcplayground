@@ -3,5 +3,7 @@
     <pages>
         <page name='Home'/>
         <page name='692. Top K Frequent Words'/>
+        <page name='1562. Find Latest Group of Size M '/>
+        <page name='2420. Find All Good Indices'/>
     </pages>
 </playground>
